@@ -1,0 +1,40 @@
+{
+  "model": "transformer",
+  "symbol": "AAPL",
+  "config": {
+    "symbol": "AAPL",
+    "start_date": "2019-01-01",
+    "end_date": "2024-01-01",
+    "sequence_length": 60,
+    "prediction_horizon": 1,
+    "scaler_type": "standard",
+    "features": null,
+    "model": "transformer",
+    "model_config": {
+      "d_model": 128,
+      "num_heads": 8,
+      "num_layers": 4,
+      "dff": 512,
+      "dropout_rate": 0.1
+    },
+    "epochs": 100,
+    "batch_size": 256,
+    "learning_rate": 0.0003,
+    "patience": 15
+  },
+  "metrics": {
+    "mae": 0.0752173662185669,
+    "rmse": 0.08970798206219968,
+    "MAE": 0.07521736544771332,
+    "RMSE": 0.08970797914915363,
+    "MAPE": 7.3286487062008705,
+    "R2_Score": 0.9263444876269602,
+    "SMAPE": 7.363136599899092,
+    "Directional_Accuracy": 0.4686192468619247,
+    "Max_Error": 0.24272424998478348,
+    "Trading_total_return": -0.7200060910488001,
+    "Trading_sharpe_ratio": -1.147752475453637,
+    "Trading_max_drawdown": 0.7307007180959973,
+    "Trading_final_capital": 2799.9390895119996
+  }
+}

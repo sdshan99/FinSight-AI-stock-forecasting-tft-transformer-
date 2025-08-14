@@ -1,0 +1,40 @@
+{
+  "model": "tft",
+  "symbol": "AAPL",
+  "config": {
+    "symbol": "AAPL",
+    "start_date": "2019-01-01",
+    "end_date": "2024-01-01",
+    "sequence_length": 60,
+    "prediction_horizon": 1,
+    "scaler_type": "standard",
+    "features": null,
+    "model": "tft",
+    "model_config": {
+      "d_model": 128,
+      "num_heads": 8,
+      "num_layers": 4,
+      "dff": 512,
+      "dropout_rate": 0.1
+    },
+    "epochs": 100,
+    "batch_size": 256,
+    "learning_rate": 0.0003,
+    "patience": 15
+  },
+  "metrics": {
+    "mae": 0.13441601395606995,
+    "rmse": 0.16715226671147962,
+    "MAE": 0.1344160066217134,
+    "RMSE": 0.16715227600325783,
+    "MAPE": 10.934595089525066,
+    "R2_Score": 0.7442783049849663,
+    "SMAPE": 11.750329609615969,
+    "Directional_Accuracy": 0.5062761506276151,
+    "Max_Error": 0.37861313583898215,
+    "Trading_total_return": 0.6828126868283587,
+    "Trading_sharpe_ratio": 1.0768414282992131,
+    "Trading_max_drawdown": 0.08711879673702135,
+    "Trading_final_capital": 16828.126868283587
+  }
+}
