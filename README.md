@@ -8,7 +8,7 @@ It supports multiple stock symbols, customizable hyperparameters, automatic tech
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Dual-Model Support** → Transformer (fast & accurate) and TFT (interpretable, multi-horizon forecasting)
 - **Configurable Parameters** → Sequence length, features, batch size, learning rate, patience
