@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🛠 Usage
+## Usage
 
 ### **Train & Evaluate**
 
