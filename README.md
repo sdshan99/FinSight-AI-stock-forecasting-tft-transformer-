@@ -139,7 +139,7 @@ MIT License – free to use, modify, and distribute.
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 - Yahoo Finance for data
 - PyTorch, TensorFlow/Keras for model implementation
 - Original TFT paper: *Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting*
