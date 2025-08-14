@@ -63,11 +63,11 @@ python3 main.py --symbol GOOGL   # Google
 
 # Quick demo (2-3 minutes)
 python3 demo.py
-```
-Full Exectution
+
+#Full Execution
 python main.py --model transformer --symbol AAPL --sequence-length 60 --epochs 100 --batch-size 256 --learning-rate 3e-4
 python main.py --model tft --symbol AAPL --sequence-length 60 --epochs 100 --batch-size 256 --learning-rate 3e-4
-
+```
 ### Advanced Options
 ```bash
 # Customize training
